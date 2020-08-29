@@ -1,0 +1,83 @@
+.message {
+
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+
+}
+
+.message_user {
+
+    margin-left: auto;
+    color: white;
+    text-align: left !important;
+}
+
+.message_userCard {
+
+    background-image: linear-gradient(to left, #5b5b5b, #444444, #2f2f2f, #1b1b1b, #000000);
+    color: white !important;
+    border-radius: 15px 0px 15px 15px !important;
+    -webkit-box-shadow: 0px 13px 24px -11px rgba(0, 0, 0, 0.75) !important;
+    -moz-box-shadow: 0px 13px 24px -11px rgba(0, 0, 0, 0.75) !important;
+    box-shadow: 0px 13px 24px -11px rgba(0, 0, 0, 0.75) !important;
+
+}
+
+.message_guestCard {
+
+    background-image: linear-gradient(to right, #e7e7e7, #dedede, #d5d5d5, #cccccc, #c3c3c3);
+    border-radius: 0px 15px 15px 15px !important;
+    color: rgb(78, 78, 78) !important;
+    -webkit-box-shadow: 0px 13px 24px -11px rgba(0, 0, 0, 0.75) !important;
+    -moz-box-shadow: 0px 13px 24px -11px rgba(0, 0, 0, 0.75) !important;
+    box-shadow: 0px 13px 24px -11px rgba(0, 0, 0, 0.75) !important;
+
+}
+
+.text_input {
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+    z-index: 1;
+    background-color: black;
+    margin: 0 20px 0 20px;
+    border-radius: 10px;
+}
+
+.text_enter {
+
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    border-radius: 25px !important;
+}
+
+.app_input {
+    flex: 1;
+    margin: 0 10px 0 10px;
+}
+
+.app_button {
+
+    flex: 0;
+    margin: 0 10px 0 0;
+}
+
+.app_user {
+
+    color: gray;
+}
+
+.app_image {
+
+    height: 120px;
+}
+
+.app_header {
+
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
