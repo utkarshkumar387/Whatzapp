@@ -9,7 +9,7 @@ It is a chat application built using react and firebase. This application is dep
 Install my-project with npm
 
 ```bash
-  npm install my-project
+  npm install
   cd Whatzapp
 ```
     
@@ -36,7 +36,7 @@ Install dependencies
 Start the server
 
 ```bash
-  npm run start
+  npm start
 ```
 
   
